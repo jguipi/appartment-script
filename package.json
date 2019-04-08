@@ -1,0 +1,37 @@
+{
+  "name": "koa-typescript-starter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "CC0-1.0",
+  "scripts": {
+    "start": "npm run serve",
+    "build": "npm run build-ts && npm run tslint",
+    "serve": "npm run build && nodemon dist/index.js",
+    "watch-node": "nodemon dist/src/index.js",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "tslint": "tslint -c tslint.json -p tsconfig.json --format verbose --fix"
+  },
+  "devDependencies": {
+    "@types/dotenv": "4.0.3",
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.32",
+    "@types/nodemailer": "4.6.5",
+    "@types/redis": "2.8.6",
+    "concurrently": "4.0.1",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "kijiji-scraper": "4.0.2",
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0",
+    "nodemailer": "4.6.8",
+    "redis": "2.8.0"
+  }
+}

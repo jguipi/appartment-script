@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "jsRules": {},
+    "rules": {
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "no-console": [
+            false
+        ]
+    },
+    "indent": [false],
+    "rulesDirectory": []
+}
