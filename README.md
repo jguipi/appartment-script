@@ -32,7 +32,8 @@ Koa is a new web framework designed by the team behind Express, which aims to be
 
   NODE_ENV = development
 
- 5- Run the app with `npm run serve`
+ 5- Run the app with `npm run serve` and you will get generated link with a few recommandation :
+ ![Link](https://github.com/jguipi/appartment-script/blob/master/img/1.JPG)
  
  6- Enjoy 😊!
  
