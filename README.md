@@ -35,6 +35,8 @@ Koa is a new web framework designed by the team behind Express, which aims to be
  5- Run the app with `npm run serve` and you will get generated link with a few recommandation :
  ![Link](https://github.com/jguipi/appartment-script/blob/master/img/1.JPG)
  
+ ![url](https://github.com/jguipi/appartment-script/blob/master/img/2.JPG)
+ 
  6- Enjoy 😊!
  
 ### Setup Sendgrid (Optional)
@@ -73,3 +75,8 @@ Koa is a new web framework designed by the team behind Express, which aims to be
 - [Node JS](https://nodejs.org/en/)
 - [Koa](https://koajs.com/#)
 - [nodemailer](https://nodemailer.com/about/)
+
+### Shout out 
+
+- Thx to Alex G. for the help
+
