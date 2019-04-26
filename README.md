@@ -6,7 +6,7 @@
 ### Introduction 
 
 Hi!
-this is a apartment scrapper site that will help people found an apartment. With this script you can add criteria and it will generate URL that you can send to yourself via Sendgrid. It's build with Koa & Typescipt starter. 
+this is an apartment scrapper site that will help people found an apartment. With this script you can add criteria and it will generate URL that you can send to yourself via Sendgrid. It's build with Koa & Typescipt starter. 
 
 ### What is KOA?
 
