@@ -22,7 +22,7 @@ Koa is a new web framework designed by the team behind Express, which aims to be
 
  4- Open a terminal and execute : `npm install`
  
- 5- Download and unzip the latest (Redis version)[https://github.com/dmajkic/redis/downloads]
+ 5- Download and unzip the latest (Redis version)[https://github.com/dmajkic/redis/downloads] then start the redis server
  
  6- Create a `.env` file at the root of your project and create these variables : 
  
